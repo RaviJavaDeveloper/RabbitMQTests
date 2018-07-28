@@ -16,6 +16,7 @@ import org.eclipse.paho.client.mqttv3.MqttTopic;
 
 public class MqtTest implements MqttCallback {
 
+    
     private final String host = "localhost";
     private final int port = 5672;
     private final String brokerUrl = "tcp://" + host + ":" + port;
